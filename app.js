@@ -2,7 +2,7 @@ const btn = document.querySelector(".btn");
 const panel = document.querySelector(".panel");
 const cards = document.querySelectorAll(".card");
 
-let feedback;
+let feedback = "satisfied";
 
 cards.forEach((card) => {
   card.addEventListener("click", () => {
